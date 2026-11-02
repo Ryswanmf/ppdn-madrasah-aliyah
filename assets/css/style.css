@@ -2437,6 +2437,38 @@ textarea.form-control {
   color: #94a3b8;
 }
 
+.footer-support {
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+}
+
+.footer-support i {
+  color: var(--accent-yellow);
+  font-size: 0.85rem;
+}
+
+.footer-support a {
+  color: var(--accent-yellow);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(251, 191, 36, 0.45);
+  transition: all 0.2s ease;
+}
+
+.footer-support a:hover {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+.footer-support strong {
+  color: inherit;
+  font-weight: 700;
+}
+
 .footer-bottom-links {
   display: flex;
   gap: 1.5rem;
